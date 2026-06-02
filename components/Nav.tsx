@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
@@ -21,9 +22,10 @@ export default function Nav() {
         <Link
           href="/"
           onClick={() => setOpen(false)}
-          className="font-heading text-xl font-bold text-charcoal tracking-tight hover:text-gold transition-colors"
+          className="flex items-center gap-2.5 hover:opacity-80 transition-opacity"
         >
-          Yoke
+          <Image src="/Yoke-Icon.png" alt="Yoke" width={32} height={32} className="rounded-lg" />
+          <span className="font-heading text-xl font-bold text-charcoal tracking-tight">Yoke</span>
         </Link>
 
         {/* Desktop links */}

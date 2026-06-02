@@ -21,20 +21,24 @@ export const metadata: Metadata = {
     template: "%s | Yoke",
   },
   description:
-    "Be equally yoked. A faith-based dating app connecting Christian singles who are serious about finding a partner who shares their walk with God.",
+    "Be equally yoked. A Christian devotional accountability app. Read the daily passage, write your reflection, and share it with your people.",
+  icons: {
+    icon: "/Yoke-Icon.png",
+    apple: "/Yoke-Icon.png",
+  },
   openGraph: {
     type: "website",
     siteName: "Yoke: Faith Together",
     title: "Yoke: Faith Together",
     description:
-      "Be equally yoked. A faith-based dating app connecting Christian singles.",
+      "A Christian devotional accountability app. Show up in the Word every day, with people who hold you to it.",
     url: "https://yokefaith.com",
   },
   twitter: {
     card: "summary_large_image",
     title: "Yoke: Faith Together",
     description:
-      "Be equally yoked. A faith-based dating app connecting Christian singles.",
+      "A Christian devotional accountability app. Show up in the Word every day, with people who hold you to it.",
     site: "@yokefaith",
     creator: "@yokefaith",
   },

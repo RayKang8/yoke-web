@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
@@ -86,9 +88,13 @@ function WhatIsYoke() {
           </p>
         </div>
         <div className="flex justify-center">
-          <div className="w-64 h-64 rounded-3xl bg-gold/20 border-2 border-gold/30 flex items-center justify-center">
-            <span className="font-heading text-7xl font-bold text-gold/50 select-none">Y</span>
-          </div>
+          <Image
+            src="/Yoke-Icon.png"
+            alt="Yoke icon"
+            width={256}
+            height={256}
+            className="rounded-3xl shadow-md"
+          />
         </div>
       </div>
     </section>

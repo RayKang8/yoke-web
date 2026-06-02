@@ -1,12 +1,14 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="bg-charcoal text-cream">
       <div className="max-w-5xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="text-center md:text-left">
+        <div className="flex flex-col items-center md:items-start gap-2">
+          <Image src="/Yoke-Icon.png" alt="Yoke" width={40} height={40} className="rounded-xl" />
           <p className="font-heading text-lg font-bold text-gold">Yoke: Faith Together</p>
-          <p className="text-sm mt-1 opacity-60">Be equally yoked.</p>
+          <p className="text-sm opacity-60">Be equally yoked.</p>
         </div>
 
         <nav className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm opacity-70">
