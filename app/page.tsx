@@ -15,17 +15,18 @@ function Hero() {
     <section className="bg-warm py-28 px-6 text-center">
       <div className="max-w-3xl mx-auto">
         <p className="text-gold font-body font-semibold text-sm tracking-widest uppercase mb-4">
-          Faith Together
+          Daily Devotions. Real Accountability.
         </p>
         <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-charcoal leading-tight">
-          Find Your Match<br className="hidden sm:block" /> in Faith
+          Show Up for Your<br className="hidden sm:block" /> Faith. Every Day.
         </h1>
         <p className="mt-5 font-heading text-xl md:text-2xl text-charcoal/50 italic">
           Be equally yoked.
         </p>
         <p className="mt-6 text-lg text-charcoal/70 max-w-xl mx-auto leading-relaxed font-body">
-          Yoke is a dating app for Christian singles who are serious about finding
-          a partner who shares their walk with God.
+          Yoke is a devotional accountability app. Every day you get a Bible passage,
+          write your reflection, and post it to your groups and friends. Your people
+          can see if you showed up.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <AppStoreButton />
@@ -71,16 +72,17 @@ function WhatIsYoke() {
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-charcoal leading-snug">
-            More than dating —<br />a covenant foundation
+            Your daily devotional,<br />done in community
           </h2>
           <p className="mt-5 text-charcoal/70 text-lg leading-relaxed font-body">
-            Yoke is built on 2 Corinthians 6:14. We believe a lasting relationship
-            starts with a shared faith — so every feature is designed to help you
-            find someone aligned in belief, values, and calling.
+            Every day, Yoke gives you a Bible passage and a prompt. You read, you
+            reflect, you write, and then you post it to your accountability groups
+            and friends.
           </p>
           <p className="mt-4 text-charcoal/70 text-lg leading-relaxed font-body">
-            No shallow swipes. No algorithms chasing engagement. Just genuine
-            believers seeking genuine connection.
+            Your people can see if you showed up today. That simple fact changes
+            everything. It is not pressure. It is the power of doing hard things
+            alongside people who care.
           </p>
         </div>
         <div className="flex justify-center">
@@ -95,21 +97,21 @@ function WhatIsYoke() {
 
 const FEATURES = [
   {
-    title: "Faith-Centered Matching",
+    title: "Daily Passage & Reflection",
     description:
-      "Connect with believers who share your convictions, your denomination, and your daily walk with God.",
+      "Each day, a new Bible passage and devotional prompt to guide your time in the Word. Read it, write your reflection, post it.",
     icon: CrossIcon,
   },
   {
-    title: "Equally Yoked",
+    title: "Accountability Groups",
     description:
-      "Go beyond interests. Our profiles surface what actually matters — theology, values, and life vision.",
+      "Create or join groups with friends, your small group, or your church community. Your people can see if you showed up today.",
     icon: ScaleIcon,
   },
   {
-    title: "Authentic Community",
+    title: "Friends Feed & Streaks",
     description:
-      "More than a dating app — a space where believers can encourage, uplift, and find their person.",
+      "See your friends' daily reflections, react and encourage. Personal and group streaks make consistency something you build together.",
     icon: HeartIcon,
   },
 ];
@@ -120,10 +122,10 @@ function Features() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-14">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-charcoal">
-            Why Yoke?
+            How it works
           </h2>
           <p className="mt-3 text-charcoal/55 text-lg font-body max-w-lg mx-auto">
-            Every feature exists to help you find a partner who shares your faith.
+            A daily rhythm that keeps you in the Word, with people who hold you to it.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6">
@@ -158,7 +160,7 @@ function Screenshots() {
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-6">
-          {["Discover", "Match", "Connect"].map((label) => (
+          {["Today's Passage", "Your Group", "Your Streak"].map((label) => (
             <PhoneMockup key={label} label={label} />
           ))}
         </div>
@@ -181,10 +183,10 @@ function CtaBanner() {
     <section className="bg-gold py-20 px-6 text-center">
       <div className="max-w-2xl mx-auto">
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-charcoal">
-          Ready to be equally yoked?
+          Ready to show up together?
         </h2>
         <p className="mt-4 text-charcoal/65 text-lg font-body">
-          Download Yoke and start your journey toward a faith-filled relationship.
+          Download Yoke and start your daily devotional with people who will hold you to it.
         </p>
         <div className="mt-9">
           <AppStoreButton />

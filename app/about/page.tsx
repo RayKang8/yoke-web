@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Our Story",
   description:
-    "Learn the story behind Yoke and what it means to be equally yoked in faith and in love.",
+    "Why we built Yoke, a devotional accountability app for Christians who want to stay consistent in the Word, together.",
   openGraph: {
     title: "Our Story | Yoke",
     description:
-      "Learn the story behind Yoke and what it means to be equally yoked in faith and in love.",
+      "Why we built Yoke, a devotional accountability app for Christians who want to stay consistent in the Word, together.",
     url: "https://yokefaith.com/about",
   },
   alternates: { canonical: "https://yokefaith.com/about" },
@@ -33,11 +33,11 @@ function PageHeader() {
           Our Story
         </p>
         <h1 className="font-heading text-5xl md:text-6xl font-bold text-charcoal leading-tight">
-          Built on Faith.<br />Built for You.
+          Faith is better<br />together.
         </h1>
         <p className="mt-6 text-lg text-charcoal/65 font-body leading-relaxed max-w-xl mx-auto">
-          Yoke exists because believers deserve a dating app that takes their faith
-          as seriously as they do.
+          Yoke exists because daily devotions are hard to sustain alone. The right
+          community changes everything.
         </p>
       </div>
     </section>
@@ -54,10 +54,10 @@ function EquallyYoked() {
             <div className="absolute inset-4 rounded-2xl bg-warm flex items-center justify-center">
               <blockquote className="text-center px-4">
                 <p className="font-heading text-base italic text-charcoal/80 leading-relaxed">
-                  &ldquo;Do not be unequally yoked with unbelievers.&rdquo;
+                  &ldquo;Take my yoke upon you, and learn from me.&rdquo;
                 </p>
                 <cite className="mt-3 block text-sm text-gold font-body font-semibold not-italic">
-                  2 Corinthians 6:14
+                  Matthew 11:29
                 </cite>
               </blockquote>
             </div>
@@ -65,18 +65,18 @@ function EquallyYoked() {
         </div>
         <div className="order-1 md:order-2">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-charcoal leading-snug">
-            What does it mean to be equally yoked?
+            Where the name comes from
           </h2>
           <p className="mt-5 text-charcoal/70 text-lg leading-relaxed font-body">
-            In farming, a yoke is the wooden beam that joins two oxen together.
-            When the animals are equally matched — in size, strength, and stride —
-            they move as one. When they&apos;re mismatched, the load becomes a struggle.
+            In Matthew 11:28–30, Jesus invites the weary to take his yoke, to walk in
+            step with him, to share the load, and to learn from him as they go. A yoke
+            is not a burden. It is a partnership.
           </p>
           <p className="mt-4 text-charcoal/70 text-lg leading-relaxed font-body">
-            Paul used this image to describe the importance of spiritual alignment
-            in our closest relationships. Being equally yoked isn&apos;t a limitation —
-            it&apos;s a foundation. It means building something together that neither
-            of you could carry alone.
+            That is what Yoke is about: walking in step with Christ and with the people
+            around you who share that same commitment. Being equally yoked means your
+            community is pulling in the same direction. That is what makes the daily
+            discipline possible.
           </p>
         </div>
       </div>
@@ -93,21 +93,22 @@ function WhyWeBuiltIt() {
         </h2>
         <div className="space-y-6 text-charcoal/70 text-lg leading-relaxed font-body">
           <p>
-            Most dating apps treat faith as a filter — a checkbox tucked between
-            height and zodiac sign. For serious believers, that&apos;s not enough.
-            Faith isn&apos;t a preference. It&apos;s the lens through which we see the world,
-            make decisions, and build our lives.
+            Most Christians want to read their Bible every day. Very few actually do.
+            Not because they do not care, but because hard habits rarely survive in
+            isolation. Life fills the gap. Days slip. The intention stays, but the
+            practice fades.
           </p>
           <p>
-            We built Yoke for the Christian who has tried the mainstream apps and
-            felt the disconnect. Who swiped past hundreds of profiles and found no
-            one who understood why Sunday morning is non-negotiable, or why serving
-            others is a calling, not a hobby.
+            Accountability is the missing ingredient. When your friends can see your
+            streak, you show up differently. Not out of pressure, but because community
+            makes hard disciplines sustainable. That is what small groups have always
+            known. Yoke brings that same accountability to your daily devotional.
           </p>
           <p>
-            Yoke is for the believer who isn&apos;t just looking for a date — they&apos;re
-            looking for a partner to do life with. Someone who will pray with them,
-            grow with them, and walk faithfully beside them for the long haul.
+            Yoke is for the Christian who wants to be consistent in the Word and wants
+            to do it alongside people who will notice when they miss a day, celebrate
+            when they do not, and grow right along with them. Real accountability.
+            Real community.
           </p>
         </div>
       </div>
@@ -117,24 +118,24 @@ function WhyWeBuiltIt() {
 
 const VALUES = [
   {
-    label: "Faith First",
+    label: "Scripture First",
     description:
-      "Every feature is designed to surface faith, not bury it. Your relationship with God shapes your relationship with everyone else.",
+      "The daily Bible passage is the anchor. Every feature is built to support your time in the Word, not replace it.",
   },
   {
-    label: "Intentionality",
+    label: "Real Accountability",
     description:
-      "We believe dating should be purposeful. Yoke is built for people who know what they want and why they want it.",
+      "Not just a reminder on your lock screen. Your people can actually see if you showed up today. That changes things.",
   },
   {
-    label: "Authenticity",
+    label: "Community Over Performance",
     description:
-      "No curated highlight reels. We encourage honesty — about your beliefs, your journey, and what you're truly looking for.",
+      "This isn't about who has the longest streak. It's about doing this together, grace and all. Miss a day? Your group is still there.",
   },
   {
-    label: "Community",
+    label: "Consistency as Worship",
     description:
-      "Connection doesn't have to be transactional. Yoke fosters a space where believers can encourage one another along the way.",
+      "Showing up daily in the Word is not legalism. It is faithfulness. Yoke makes that consistency something you build with others.",
   },
 ];
 
@@ -147,7 +148,7 @@ function Values() {
             What we believe
           </h2>
           <p className="mt-3 text-cream/50 text-lg font-body max-w-md mx-auto">
-            The values that guide every decision we make at Yoke.
+            The values that shape every decision we make at Yoke.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 gap-6">
