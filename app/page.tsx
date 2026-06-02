@@ -153,6 +153,13 @@ function Features() {
   );
 }
 
+const SCREENSHOTS = [
+  { src: "/devotional.PNG", alt: "Daily devotional screen" },
+  { src: "/feed.PNG",       alt: "Friends feed screen" },
+  { src: "/groups.PNG",     alt: "Accountability groups screen" },
+  { src: "/profile.PNG",    alt: "Profile and streaks screen" },
+];
+
 function Screenshots() {
   return (
     <section className="bg-charcoal py-20 px-6 overflow-hidden">
@@ -166,8 +173,8 @@ function Screenshots() {
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-6">
-          {["Today's Passage", "Your Group", "Your Streak"].map((label) => (
-            <PhoneMockup key={label} label={label} />
+          {SCREENSHOTS.map(({ src, alt }) => (
+            <PhoneMockup key={src} src={src} alt={alt} />
           ))}
         </div>
       </div>
@@ -175,11 +182,17 @@ function Screenshots() {
   );
 }
 
-function PhoneMockup({ label }: { label: string }) {
+function PhoneMockup({ src, alt }: { src: string; alt: string }) {
   return (
-    <div className="w-52 h-[26rem] rounded-[2.5rem] border-2 border-cream/10 bg-warm/5 flex flex-col items-center justify-end pb-10 gap-2 shadow-xl">
-      <div className="w-8 h-1 rounded-full bg-gold/40" />
-      <span className="text-cream/30 text-xs font-body tracking-wide">{label}</span>
+    <div className="relative w-52 rounded-[2.5rem] border-2 border-cream/15 bg-charcoal shadow-2xl overflow-hidden">
+      <div className="absolute top-3 left-1/2 -translate-x-1/2 w-16 h-1.5 rounded-full bg-cream/20 z-10" />
+      <Image
+        src={src}
+        alt={alt}
+        width={208}
+        height={450}
+        className="w-full h-auto"
+      />
     </div>
   );
 }
