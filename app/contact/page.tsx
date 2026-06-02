@@ -32,7 +32,7 @@ function PageHeader() {
           Get in Touch
         </h1>
         <p className="mt-6 text-lg text-charcoal/65 font-body leading-relaxed max-w-lg mx-auto">
-          Questions, feedback, partnership inquiries — we&apos;d love to hear from you.
+          Questions, feedback, partnership inquiries. We would love to hear from you.
           We read every message.
         </p>
       </div>

@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
         </nav>
 
-        <p className="text-xs opacity-40">© 2026 Yoke. All rights reserved.</p>
+        <p className="text-xs opacity-40">© 2026 Yokefaith</p>
       </div>
     </footer>
   );
