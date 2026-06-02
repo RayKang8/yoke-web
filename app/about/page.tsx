@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About — Yoke: Faith Together",
+  title: "Our Story",
   description:
     "Learn the story behind Yoke and what it means to be equally yoked in faith and in love.",
+  openGraph: {
+    title: "Our Story | Yoke",
+    description:
+      "Learn the story behind Yoke and what it means to be equally yoked in faith and in love.",
+    url: "https://yokefaith.com/about",
+  },
+  alternates: { canonical: "https://yokefaith.com/about" },
 };
 
 export default function About() {

@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Yoke: Faith Together",
+  title: "Contact",
   description: "Get in touch with the Yoke team. We'd love to hear from you.",
+  openGraph: {
+    title: "Contact | Yoke",
+    description: "Get in touch with the Yoke team. We'd love to hear from you.",
+    url: "https://yokefaith.com/contact",
+  },
+  alternates: { canonical: "https://yokefaith.com/contact" },
 };
 
 export default function Contact() {

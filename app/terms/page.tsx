@@ -3,8 +3,14 @@ import type { Metadata } from "next";
 import LegalLayout from "@/components/LegalLayout";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — Yoke: Faith Together",
+  title: "Terms of Service",
   description: "The terms governing your use of the Yoke: Faith Together app and website.",
+  openGraph: {
+    title: "Terms of Service | Yoke",
+    description: "The terms governing your use of the Yoke: Faith Together app and website.",
+    url: "https://yokefaith.com/terms",
+  },
+  alternates: { canonical: "https://yokefaith.com/terms" },
 };
 
 export default function Terms() {

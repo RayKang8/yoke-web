@@ -3,8 +3,14 @@ import type { Metadata } from "next";
 import LegalLayout from "@/components/LegalLayout";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Yoke: Faith Together",
+  title: "Privacy Policy",
   description: "How Yoke collects, uses, and protects your personal information.",
+  openGraph: {
+    title: "Privacy Policy | Yoke",
+    description: "How Yoke collects, uses, and protects your personal information.",
+    url: "https://yokefaith.com/privacy",
+  },
+  alternates: { canonical: "https://yokefaith.com/privacy" },
 };
 
 export default function Privacy() {
