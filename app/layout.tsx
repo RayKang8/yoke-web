@@ -17,15 +17,11 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   metadataBase: new URL("https://yokefaith.com"),
   title: {
-    default: "Yoke: Faith Together",
+    default: "Yoke",
     template: "%s | Yoke",
   },
   description:
     "Be equally yoked. A Christian devotional accountability app. Read the daily passage, write your reflection, and share it with your people.",
-  icons: {
-    icon: "/Yoke-Icon.png",
-    apple: "/Yoke-Icon.png",
-  },
   openGraph: {
     type: "website",
     siteName: "Yoke: Faith Together",
