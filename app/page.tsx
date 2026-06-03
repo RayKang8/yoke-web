@@ -33,9 +33,6 @@ function Hero() {
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <AppStoreButton />
         </div>
-        <p className="mt-4 text-sm text-charcoal/35 font-body">
-          Coming soon to iOS &amp; Android
-        </p>
       </div>
     </section>
   );
@@ -49,7 +46,7 @@ function AppStoreButton() {
       className="inline-flex items-center gap-3 bg-charcoal text-cream font-body font-semibold px-7 py-4 rounded-full text-base hover:bg-charcoal/85 transition-all shadow-md"
     >
       <AppleIcon />
-      <span>Download on the App Store</span>
+      <span>Coming Soon</span>
     </a>
   );
 }
