@@ -41,12 +41,14 @@ function Hero() {
 function AppStoreButton() {
   return (
     <a
-      href="#"
+      href="https://apps.apple.com/us/app/yoke-faith-together/id6764186352"
+      target="_blank"
+      rel="noopener noreferrer"
       aria-label="Download on the App Store"
       className="inline-flex items-center gap-3 bg-charcoal text-cream font-body font-semibold px-7 py-4 rounded-full text-base hover:bg-charcoal/85 transition-all shadow-md"
     >
       <AppleIcon />
-      <span>Coming Soon</span>
+      <span>Download on the App Store</span>
     </a>
   );
 }
