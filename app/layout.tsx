@@ -41,6 +41,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://yokefaith.com",
   },
+  other: {
+    "apple-itunes-app": "app-id=6764186352",
+  },
 };
 
 export default function RootLayout({
