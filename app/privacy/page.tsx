@@ -162,7 +162,14 @@ export default function Privacy() {
         absolute security.
       </p>
 
-      <h2>6. Data Retention</h2>
+      <h2>6. Account Deletion</h2>
+      <p>
+        To delete your account and all associated data, open the Yoke app, go to
+        Profile &rsaquo; Settings &rsaquo; Delete Account. Your account and all associated
+        personal data will be permanently deleted immediately.
+      </p>
+
+      <h2>7. Data Retention</h2>
       <p>
         We retain your personal information for as long as your account is active or
         as needed to provide the Service. You may delete your account at any time from
@@ -172,7 +179,7 @@ export default function Privacy() {
         to you may be retained for analytical purposes.
       </p>
 
-      <h2>7. Your Rights</h2>
+      <h2>8. Your Rights</h2>
       <p>
         You have the right to access, correct, and delete your personal information.
         The primary way to exercise these rights is through the app&rsquo;s account settings.
@@ -190,7 +197,7 @@ export default function Privacy() {
         with applicable law.
       </p>
 
-      <h2>8. Children&rsquo;s Privacy</h2>
+      <h2>9. Children&rsquo;s Privacy</h2>
       <p>
         Although Yoke carries a 4+ age rating on the App Store, the Service is not
         directed at children under the age of 13, and we do not knowingly collect
@@ -201,7 +208,7 @@ export default function Privacy() {
         <a href="mailto:contact@yokefaith.com">contact@yokefaith.com</a>.
       </p>
 
-      <h2>9. Changes to This Policy</h2>
+      <h2>10. Changes to This Policy</h2>
       <p>
         We may update this Privacy Policy from time to time. When we make material
         changes, we will notify you by email or through a notice within the app at
@@ -211,7 +218,7 @@ export default function Privacy() {
         the updated policy.
       </p>
 
-      <h2>10. Contact Us</h2>
+      <h2>11. Contact Us</h2>
       <p>
         If you have any questions or concerns about this Privacy Policy or how we
         handle your data, please contact us at{" "}
